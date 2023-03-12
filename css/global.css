@@ -1,0 +1,121 @@
+* {
+    font-family: Verdana;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #fff;
+    height: 7.5vh;
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+    position: fixed;
+    width: 100%;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header__nav-wordmark {
+    color: #335576;
+} 
+
+.header__nav-wordmark-link {
+    text-decoration: none;
+}
+
+
+.header__nav-list {
+    width: 25.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav-list-item {
+    list-style-type: none ;
+    text-decoration: none;
+    color: #000;
+}
+
+.header__nav-list-link {
+    color: black;
+    text-decoration: none;
+}
+
+.header__nav-list-item--active {
+    padding-bottom: 0.3rem;
+    border-bottom: .2rem solid#DB7A4E;
+}
+
+.footer {
+    height: 20vh;
+    display: flex;
+    background-color: #FEFAF5;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6rem 12.2rem;
+
+}
+.footer__hours {
+    display: inline-flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.footer__contact {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.footer__socials {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.footer__hours-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer__hours-container {
+    flex-direction: column;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.footer__hours-heading {
+    display: flex;
+}
+.footer__hours-day, .footer__contact-email {
+    margin-top: 0.55rem;
+}
+
+.footer__contact-heading, .footer__hours-heading, .footer__socials-heading {
+    color: #335576;
+    font-size: 1.35rem;
+}
+
+.footer__contact-email, .footer__hours-day {
+    font-size: 0.75rem;
+    color: #DB7A4E;
+}
+
+.footer__socials-icon {
+    max-height: 3.2vh;
+    margin-top: 1.4rem;
+    margin-right: 1.5rem;
+}
+
+.footer__hours-text, .footer__contact-info {
+    color: #335576;
+    margin-top: 0.55rem;
+}
